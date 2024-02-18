@@ -67,7 +67,7 @@ a {
 .nav {
   padding: 8px 0;
   background-image: url(/src/img/water.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto;
   letter-spacing: normal;
 }
