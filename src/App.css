@@ -67,8 +67,9 @@ a {
 .nav {
   padding: 8px 0;
   background-image: url(/src/img/water.png);
+  background-size: calc(var(--index) * 85);
   background-repeat: repeat-x;
-  background-size: auto;
+  /* background-size: auto; */
   letter-spacing: normal;
 }
 .nav-row {
@@ -81,8 +82,8 @@ a {
   margin: 0 16px;
 }
 .nav-row-logo-img {
-  width: calc(var(--index) * 8);
-  height: calc(var(--index) * 8);
+  width: calc(var(--index) * 10);
+  height: calc(var(--index) * 10);
 }
 
 .nav-list {
@@ -91,7 +92,7 @@ a {
   row-gap: 10px;
   align-items: center;
   column-gap: 40px;
-  font-size: 18px;
+  font-size: calc(var(--index) * 3);
   font-weight: 500;
   text-shadow: 3px 3px 2px rgb(2, 8, 79);
 }
