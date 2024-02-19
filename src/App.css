@@ -85,6 +85,10 @@ a {
   width: calc(var(--index) * 10);
   height: calc(var(--index) * 10);
 }
+/* .nav-row-logo-img {
+  width: calc(var(--index) * 10);
+  height: calc(var(--index) * 10);
+} */
 
 .nav-list {
   display: flex;
